@@ -2,11 +2,28 @@
 
 int main()
 {
-	int a,b;
+//	int a,b;
+//	printf("Enter value: ");
+//	scanf("%d",&b);
+//	
+//	for(a=1;a<=10;a++)
+//	
+//	printf("%d * %d = %d \n",b,a,b*a);
+
+	int a,b,c,d;
+	
 	printf("Enter value: ");
-	scanf("%d",&b);
+	scanf("%d",&a);
 	
-	for(a=1;a<=10;a++)
+	printf("Enter value: ");
+	scanf("%d",&d);
 	
-	printf("%d * %d = %d \n",b,a,b*a);
+	for(c=a;c<=d;c++)
+	{
+		for(b=1;b<=10;b++)
+		{
+			printf("%d * %d = %d \n",c,b,c*b);
+		}
+		printf("\n");
+	}
 }
