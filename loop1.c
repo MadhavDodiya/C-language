@@ -166,15 +166,43 @@ int main()
 //dcb
 //dc
 //d
-int a,b;
-for(a='a';a<='d';a++)
-{
-	for(b='d';b>=a;b--)
-	{
-		printf("%c",b);
-	}
-	printf("\n");
-}
+// int a,b;
+// for(a='a';a<='d';a++)
+// {
+// 	for(b='d';b>=a;b--)
+// 	{
+// 		printf("%c",b);
+// 	}
+// 	printf("\n");
+// }
+
+// 1
+// 0 1
+// 1 0 1
+// 0 1 0 1
+// 1 0 1 0 1
+// int a,b,c,row;
+
+// printf("Enter value : ");
+// scanf("%d",&row);
+// printf("\n");
+
+// for(a=1;a<=row;a++)
+// {
+// 	if(a%2 !=0)
+// 		c=1;
+// 	else
+// 		c=0;
+// 	for(b=1;b<=a;b++)
+// 	{
+// 		printf("\t %d",c);
+// 		if(c==1)
+// 			c=0;
+// 		else
+// 			c=1;
+// 	}
+// 	printf("\n");
+// }
 }
 
 
