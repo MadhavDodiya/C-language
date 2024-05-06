@@ -19,27 +19,22 @@ int main()
 //		printf("\t");
 //	}
 
-int a,b,c,row;
-
-printf("Enter value : ");
-scanf("%d",&row);
-printf("\n");
-
-for(a=1;a<=row;a++)
-{
-	if(a%2!=0)
-		c=1;
-	else
-		c=0;
-	for(b=1;b<=a;b++)
-	{
-		printf("%d",c);
-		if(c==1)
-			c=0;
-		else
-			c=1;
-	}
-	printf("\n");
-}
+// 1
+// 01
+// 010
+// 1010
+// 10101
+// int k = 5;
+//     for (int i = 1; i <= k; i++)
+//     {
+//         for (int j = 1; j <= i; j++)
+// 	{
+//             if (j == 1 || j == i)
+//                 printf("1");
+//             else
+//                 printf("0");
+//         }
+//         printf("\n");
+// }
 }
 
