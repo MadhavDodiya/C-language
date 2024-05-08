@@ -1,61 +1,23 @@
 #include<stdio.h>
-
 int main()
 {
-//	int i,j;
-	
-//	for(i=1;i<=5;i++)
-//	{
-//		printf("hello\n");
-//	}
-
-//int i=1,j,c=1;
-//
-//while(i<=5)
-//{
-//	for(j=1;j<=i;j++)
-//	{
-//		printf("%d ",c);
-//		c++;
-//	}
-//	printf("\n");
-//	i++;
-//}
-
-//	int a,b;
-//	
-//	printf("Enter value: ");
-//	scanf("%d",&a);
-//	
-//	printf("Enter value: ");
-//	scanf("%d",&b);
-//	
-//	while(a<=b)
-//	{
-//		
-//		if(a%2==0)
-//		{
-//			("%d\n",a);
-//		}
-//		a++;
-//	}
-	
 //1
-//12
-//123
-//1234
-//	int a=1;
-//	int b;
+//23
+//456
+//78910
+//1112131415
+//	int i=1,j,c=1;
 //	
-//	while(a<=5)
-//	{
-//		for(b=1;b<=a;b++)
+//	do{
+//		for(j=1;j<=i;j++)
 //		{
-//			printf("%d",b);
+//			printf("%d",c);
+//			c=c+1;	
 //		}
 //		printf("\n");
-//		a++;
+//		i++;
 //	}
+//	while(i<=5);
 
 //1
 //11
@@ -65,8 +27,7 @@ int main()
 //	int a=1;
 //	int b;
 //	
-//	while(a<=5)
-//	{
+//	do{
 //		for(b=1;b<=a;b++)
 //		{
 //			printf("1",a);
@@ -74,6 +35,25 @@ int main()
 //		printf("\n");
 //		a++;
 //	}
+//	while(a<=5);
+
+//1
+//12
+//123
+//1234
+//12345
+//	int a=1;
+//	int b;
+//	
+//	do{
+//		for(b=1;b<=a;b++)
+//		{
+//			printf("%d",b);
+//		}
+//		printf("\n");
+//		a++;
+//	}
+//	while(a<=5);
 
 //1
 //22
@@ -83,15 +63,15 @@ int main()
 //	int a=1;
 //	int b;
 //	
-//	while(a<=5)
-//	{
+//	do{
 //		for(b=1;b<=a;b++)
 //		{
-//			printf("%d",a);	
-//		}	
+//			printf("%d",a);
+//		}
 //		printf("\n");
 //		a++;
-//	}	
+//	}
+//	while(a<=5);
 
 //5
 //54
@@ -101,8 +81,7 @@ int main()
 //	int a=5;
 //	int b;
 //	
-//	while(a>=1)
-//	{
+//	do{
 //		for(b=5;b>=a;b--)
 //		{
 //			printf("%d",b);
@@ -110,6 +89,7 @@ int main()
 //		printf("\n");
 //		a--;
 //	}
+//	while(a>=1);
 
 //54321
 //5432
@@ -119,8 +99,7 @@ int main()
 //	int a=1;
 //	int b;
 //	
-//	while(a<=5)
-//	{
+//	do{
 //		for(b=5;b>=a;b--)
 //		{
 //			printf("%d",b);
@@ -128,25 +107,7 @@ int main()
 //		printf("\n");
 //		a++;
 //	}
-
-//1
-//23
-//456
-//78910
-//	int a=1;
-//	int b;
-//	int c=1;
-//	
-//	while(a<=5)
-//	{
-//		for(b=1;b<=a;b++)
-//		{
-//			printf("%d ",c);
-//			c=c+1;		
-//		}
-//		printf("\n");
-//		a++;
-//	}
+//	while(a<=5);
 
 //1
 //35
@@ -157,16 +118,16 @@ int main()
 //	int b;
 //	int c=1;
 //	
-//	while(a<=5)
-//	{
+//	do{
 //		for(b=1;b<=a;b++)
 //		{
 //			printf("%d ",c);
-//			c=c+2;	
+//			c=c+2;
 //		}
 //		printf("\n");
 //		a++;
 //	}
+//	while(a<=5);
 
 //2
 //46
@@ -177,8 +138,7 @@ int main()
 //	int b;
 //	int c=2;
 //	
-//	while(a<=5)
-//	{
+//	do{
 //		for(b=1;b<=a;b++)
 //		{
 //			printf("%d ",c);
@@ -186,7 +146,8 @@ int main()
 //		}
 //		printf("\n");
 //		a++;
-//	}
+//	}	
+//	while(a<=5);
 
 //10
 //98
@@ -196,27 +157,25 @@ int main()
 //	int b;
 //	int c=10;
 //	
-//	while(a<=4)
-//	{
+//	do{
 //		for(b=1;b<=a;b++)
 //		{
 //			printf("%d",c);
-//			c--;
+//			c=c-1;
 //		}
 //		printf("\n");
 //		a++;
 //	}
+//	while(a<=4);
 
 //a
 //ab
 //abc
 //abcd
-//abcde
 //	int a='a';
 //	int b;
 //	
-//	while(a<='e')
-//	{
+//	do{
 //		for(b='a';b<=a;b++)
 //		{
 //			printf("%c",b);
@@ -224,68 +183,53 @@ int main()
 //		printf("\n");
 //		a++;
 //	}
+//	while(a<='d');
 
 //abcd
 //abc
 //ab
 //a
-//	int a='d';
-//	int b;
-//	
-//	while(a>='a')
-//	{
-//		for(b='a';b<=a;b++)
-//		{
-//			printf("%c",b);
-//		}
-//		printf("\n");
-//		a--;
-//	}
 
-//dcba
-//dcb
-//dc
-//d
 //	int a='a';
 //	int b;
 //	
-//	while(a<='d')
-//	{
-//		for(b='d';b>=a;b--)
+//	do{
+//		for(b='a';b>=a;b++)
 //		{
 //			printf("%c",b);
 //		}
 //		printf("\n");
 //		a++;
 //	}
-	
-//d
-//dc
-//dcb
-//dcba
-//	int a='d';
-//	int b;
-//	
-//	while(a>='a')
-//	{
-//		for(b='d';b>=a;b--)
-//		{
-//			printf("%c",b);
-//		}
-//		printf("\n");
-//		a--;
-//	}
-
-int i = 'a';
-int j;
-  
-  do {
-  	for(j='a';j<=i;j++){
-  		printf(" %c ",j);
-	  }
-    printf("\n");
-    i++;
-  }
-  while (i <= '100');
+//	while(a<='d');
 }
+
+
+
+//
+//
+//
+
+//
+//
+
+//
+//
+//d
+//dc
+//dcb
+//dcba
+//
+//
+//
+//dcba
+//dcb
+//dc
+//d
+//
+//1
+//21
+//321
+//4321
+
 
