@@ -189,12 +189,46 @@ int main()
 //abc
 //ab
 //a
+//	int a='d';
+//	int b;
+//	
+//	do{
+//		for(b='a';b<=a;b++)
+//		{
+//			printf("%c",b);
+//		}
+//		printf("\n");
+//		a--;
+//	}
+//	while(a>='a');
+
+//d
+//dc
+//dcb
+//dcba
+//	int a='d';
+//	int b;
+//	
+//	do{
+//		for(b='d';b>=a;b--)
+//		{
+//			printf("%c",b);
+//		}
+//		printf("\n");
+//		a--;
+//	}
+//	while(a>='a');
+
+//dcba
+//dcb
+//dc
+//d
 
 //	int a='a';
 //	int b;
 //	
 //	do{
-//		for(b='a';b>=a;b++)
+//		for(b='d';b>=a;b--)
 //		{
 //			printf("%c",b);
 //		}
@@ -202,34 +236,37 @@ int main()
 //		a++;
 //	}
 //	while(a<='d');
+
+//ABA
+//ABA
+//ABA
+//ABA
+
+//	char a='a';
+//	char b;
+//	
+//	do{
+//		char c='a';
+//		for(b='a';b<='c';b++)
+//		{
+//			if(a<='c')
+//			{
+//				printf("%c",c);
+//				c++;
+//			}
+//			else
+//			{
+//				printf("%c",c);
+//				c=c-1;
+//			}
+//			printf("\n");
+//			a++;
+//		}
+//	}
+//while(a<='c');
 }
 
 
 
-//
-//
-//
-
-//
-//
-
-//
-//
-//d
-//dc
-//dcb
-//dcba
-//
-//
-//
-//dcba
-//dcb
-//dc
-//d
-//
-//1
-//21
-//321
-//4321
 
 
