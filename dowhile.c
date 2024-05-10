@@ -223,7 +223,6 @@ int main()
 //dcb
 //dc
 //d
-
 //	int a='a';
 //	int b;
 //	
@@ -241,32 +240,25 @@ int main()
 //ABA
 //ABA
 //ABA
-
-//	char a='a';
-//	char b;
+	
+//	int a=4;
+//	int b=0;
+//	int c;
 //	
 //	do{
-//		char c='a';
-//		for(b='a';b<='c';b++)
+//		for(c=0;c<=3;c++)
 //		{
-//			if(a<='c')
-//			{
-//				printf("%c",c);
-//				c++;
-//			}
+//			if(c%2==0)
+//				printf("A");
 //			else
-//			{
-//				printf("%c",c);
-//				c=c-1;
-//			}
-//			printf("\n");
-//			a++;
+//				printf("B");
 //		}
+//		printf("\n");
+//		b++;
 //	}
-//while(a<='c');
+//	while(b<a);
+
 }
-
-
 
 
 
